@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "techreborn:solid_fuel_generator"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

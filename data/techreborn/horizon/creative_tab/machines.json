@@ -1,0 +1,9 @@
+{
+  "icon": "techreborn:solid_fuel_generator",
+  "items": [
+    "techreborn:solid_fuel_generator",
+    "techreborn:electric_furnace",
+    "techreborn:copper_cable"
+  ],
+  "title": "itemGroup.techreborn.item_group"
+}

@@ -1,0 +1,18 @@
+[package]
+# Port of Tech Reborn 6.2.1 (github.com/TechReborn/TechReborn, MIT), Minecraft Java 26.3.
+# Clean-room Rust rewrite from the mod's behaviour (FINDINGS.md); local-only until publishing is
+# approved, publishable under MIT with this source.
+#
+# Cargo's name and version are not the mod's identity: horizon-mod.toml is.
+name = "techreborn"
+version = "0.2.1"
+edition = "2024"
+license = "MIT"
+description = "Tech Reborn for Horizon: a solid fuel generator, a copper cable and an electric furnace"
+publish = false
+
+[dependencies]
+# The pinned SDK's API crate, fetched into .horizon/sdk/ by any `cargo horizon-mod` command (the
+# launcher builds against its own copy of the same build). Any other registry dependency must be
+# pinned with `horizon-launcher native-lock .` before building.
+horizon-mod-api = { path = ".horizon/sdk/api/crates/horizon-mod-api" }

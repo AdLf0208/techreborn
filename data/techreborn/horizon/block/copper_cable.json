@@ -1,0 +1,11 @@
+{
+  "connects_to": "#techreborn:cables",
+  "properties": {
+    "explosion_resistance": 8.0,
+    "hardness": 1.0,
+    "requires_tool": false,
+    "sounds": "minecraft:iron_block"
+  },
+  "template": "minecraft:chorus_plant",
+  "thickness": 4.0
+}
